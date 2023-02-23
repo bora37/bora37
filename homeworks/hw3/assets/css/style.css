@@ -1,0 +1,131 @@
+/* PROBLEM 1: Remove white margin of body, html */
+html, body {
+    background-color: rgb(240, 243, 245);
+    width:800px;
+    margin:0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body, #content{
+    background-color: rgb(235, 236, 238);
+    width:600px;
+    height: 750px;
+}
+
+#header, #pictures {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#username {
+    font-size: 25px;
+    display: in-line block;
+    float: left;
+    margin-left: 210px;
+    margin-top: -100px;
+}
+
+/* PROBLEM 2: Select profile picture and make it round */
+#profile-pic img{
+    border-radius: 50%;
+    overflow: clip;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-left: 80px;
+}
+
+#header, #information, #profile-pic img, #username {
+    display: in-line block;
+    float: left;
+}
+
+
+#pictures, .row {
+    margin-right:60px;
+}
+
+/* PROBLEM 3: Flesh out your follow button! 5 px for the
+top and bottom, 30 for the left and right*/
+#follow-button {
+    background-color: rgb(56, 105, 209);
+    color: white;
+    width: 70px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 350px;
+    margin-top: -100px;
+
+}
+
+#about {
+    width: 300px;
+    margin-left: 210px;
+    padding-top: 10px;
+    font-size: 14px;
+
+}
+
+/* PROBLEM 4: Turn items into a square, 120x120 px image */
+.item img {
+    width: 140px;
+    height: 140px;
+    display:in-line block;
+    float: right;
+    opacity: 80%;
+}
+
+
+/* PROBLEM 5: Create a 10 px horizontal space between items */
+.item img{
+    margin: 10px;
+}
+
+/* PROBLEM 6: Create a 10px vertical space between rows */
+.item img{
+    margin:10px;
+}
+
+/* PROBLEM 7: Add 20px of space between each navigation item */
+#navbar .navbar-item {
+    display: in-line block;
+    float: right;
+    margin: 20px;
+    font-size: 20px;
+}
+
+#navbar {
+    background-color: rgb(246, 248, 250);
+    height: 60px;
+}
+
+/* PROBLEM 8: Create a hover effect, so that items will have
+full opacity when hovered over! It should also have a
+transition period of 0.2 seconds*/
+.item img:hover{
+    opacity: 100%;
+    transition: 0.2s ease;
+}
+
+/* PROBLEM 9: Add a click effect to the follow button, so
+the font becomes size 18 px when clicked on - as a result, the button will become
+larger when clicked on!*/
+#follow-button:hover{
+    font-size: 18px;
+}
+
+/* PROBLEM 10: Add a hover effect such that the text of the
+navigation has an opacity of 1 when hovered over!*/
+.navbar-item:hover {
+    opacity: 1%;
+}
+
+/* PROBLEM 11: In one selection, make the follow button, picture
+items, and nav bar items have a pointer cursor */
+#follow-button, .item img, .navbar-item:hover {
+    cursor: pointer;
+}

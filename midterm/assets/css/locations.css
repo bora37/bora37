@@ -126,116 +126,44 @@ nav ul li a:hover {
     transition: .3s;
 }
 
-#page {
+#everything {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-#maps {
-    padding-top: 240px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.map1 {
-    margin: 50px; 
-
-}
-
-.map2 {
-    margin: 50px;
-
-}
-
-.map3 {
-    margin: 50px;
-
-}
-
-.location {
-    font-family: "Hot Pizza";
-    font-size: 90px;
-    color: #F2ECDE;
-    position: absolute; 
-    top: 140px;
-    left: 550px;
-}
-
-.streets {
-    padding-top: 240px;
+#page {
     display: flex;
     flex-direction: row;
-    align-items: space-between;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 5%
+
+}
+
+
+.street {
     font-family: "Hot Pizza";
     font-size: 30px;
     color: #F2ECDE;
+    text-align: center;
+    margin-top: 10px;
 }
 
-.durant {
-    position: absolute; 
-    top: 660px;
-    left: 155px;
-}
-
-.center {
-    position: absolute;
-    top: 660px;
-
-}
-
-.lakeshore {
-    position: absolute; 
-    top: 660px;
-    left: 1040px;
-}
-
-#info {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-p {
-    font-family: 'Piazzolla';
-    font-style: normal;
+.info {
+    font-family: "Piazzolla";
+    font-size: 15px;
     color: #F2ECDE;
-    display: flex;
-    flex-direction: column;
-    font-style: normal; 
-    text-align: centered;
-    padding: none;
+    text-align: center;
 }
 
-.durantinfo {
-    position: absolute;
-    top: 690px;
-    left: 155px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+#location {
+    font-family: "Hot Pizza";
+    font-size: 90px;
+    color: #F2ECDE;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 5%
 }
 
-.centerinfo {
-    position: absolute;
-    top: 690px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
-    
-}
-
-.lakeshoreinfo {
-    position: absolute;
-    top: 690px;
-    left: 1080px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}

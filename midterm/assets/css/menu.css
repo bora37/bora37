@@ -61,6 +61,9 @@ nav ul li a:hover {
     transition: .3s;
 }
 
+.background {
+    position: relative;
+}
 
 #mainphoto {
     margin-left: auto;
@@ -69,19 +72,21 @@ nav ul li a:hover {
 }
 
 #menu {
-    position: absolute; 
-    top: 400px;
-    left: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 50%;
+    left: 18%;
+
 }
 
 #maintext{
     font-family: 'Hot Pizza';
     font-size: 100px;
-    position: absolute;
-    top: 140px;
-    left: 605px;
     color: #173768;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    position: absolute;
+    top: 26%; left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
+

@@ -130,29 +130,41 @@ nav ul li a:hover {
     transition: .3s;
 }
 
+#everything {
+  display: flex;
+  flex-direction: column;
+}
+
 #uber {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     border-radius: 100px;
 }
 
 .uberlogo {
-    margin-top: 170px;
-    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -5%
 }
 
 #maintext {
     font-family: 'Hot Pizza';
     font-size: 90px;
-    position: absolute;
-    top: 140px;
     color: #F2ECDE;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: -3%
 }
 
 #blurb {
     font-family: "piazolla";
     font-size: 40px;
     color: #F2ECDE;
-    position: absolute;
-    top: 740px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6%;
+
 }
